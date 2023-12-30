@@ -36,6 +36,7 @@ function WeatherDetail() {
   useEffect(() => {
     GetWeatherDetail("Punjab");
     GetWeatherForcastDetail("Punjab");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
